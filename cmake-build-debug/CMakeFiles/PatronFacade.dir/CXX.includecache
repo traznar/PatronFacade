@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/brandon/CLionProjects/PatronFacade/codigo1.h
+string
+-
+
+/home/brandon/CLionProjects/PatronFacade/codigo2.h
+string
+-
+iostream
+-
+
+/home/brandon/CLionProjects/PatronFacade/facade.h
+codigo1.h
+/home/brandon/CLionProjects/PatronFacade/codigo1.h
+codigo2.h
+/home/brandon/CLionProjects/PatronFacade/codigo2.h
+
+/home/brandon/CLionProjects/PatronFacade/main.cpp
+iostream
+-
+facade.h
+/home/brandon/CLionProjects/PatronFacade/facade.h
+codigo1.h
+/home/brandon/CLionProjects/PatronFacade/codigo1.h
+codigo2.h
+/home/brandon/CLionProjects/PatronFacade/codigo2.h
+

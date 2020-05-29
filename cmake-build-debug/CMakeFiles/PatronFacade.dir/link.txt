@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/PatronFacade.dir/main.cpp.o CMakeFiles/PatronFacade.dir/codigo1.cpp.o CMakeFiles/PatronFacade.dir/codigo2.cpp.o  -o PatronFacade 
